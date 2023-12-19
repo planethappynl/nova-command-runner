@@ -68,7 +68,7 @@ class CommandsController
                         $parsed['variables'][$variable['label']] = [
                             'label' => $variable['label'],
                             'field' => isset($variable['field']) ? $variable['field'] : 'text',
-                            'value' => '',
+                            'value' => isset($variable['value']) ? $variable['value'] : '',
                             'options' => isset($variable['options']) ? $variable['options'] : [],
                             'placeholder' => isset($variable['placeholder']) ? $variable['placeholder'] : $variable['label']
                         ];
