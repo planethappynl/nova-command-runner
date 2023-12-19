@@ -1,5 +1,5 @@
 {
-    "name": "stepanenko3/nova-command-runner",
+    "name": "planethappynl/nova-command-runner",
     "description": "Laravel Nova tool for running Artisan and bash(shell) commands.",
     "keywords": [
         "laravel",
