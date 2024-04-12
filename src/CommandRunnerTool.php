@@ -9,9 +9,10 @@ use Laravel\Nova\Menu\MenuSection;
 
 class CommandRunnerTool extends Tool
 {
-    public function boot()
+    public function boot(): void
     {
         Nova::script('nova-command-runner', __DIR__ . '/../dist/js/tool.js');
+        Nova::style('nova-command-runner', __DIR__ . '/../dist/css/tool.css');
     }
 
     public function menu(Request $request)
