@@ -1,0 +1,5 @@
+version: "1"
+rules:
+  - base: stepanenko3
+    upstream: stepanenko3:main    # change `wei` to the owner of upstream repo
+    mergeMethod: hardreset
